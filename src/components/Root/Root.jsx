@@ -9,7 +9,7 @@ const Root = () => {
     return (
         <div className="max-w-6xl mx-auto">
             <NavBar></NavBar>
-            <div className="justify-center items-start flex flex-col mx-auto">{
+            <div className="justify-center items-center flex">{
                 navigation.state === "loading" ? <ColorRing
                     visible={true}
                     height="40"
