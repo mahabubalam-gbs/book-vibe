@@ -1,0 +1,20 @@
+li a {
+    padding: 10px 16px;
+    font-size: 16px;
+    color: #131313;
+    outline: #23BE0A;
+}
+
+li a:hover {
+    color: #23BE0A;
+    background: white;
+    font-weight: 400;
+    outline: 1px solid #23BE0A;
+}
+
+li a.active {
+    color: #23BE0A;
+    background: white;
+    font-weight: 400;
+    outline: 1px solid #23BE0A;
+}
